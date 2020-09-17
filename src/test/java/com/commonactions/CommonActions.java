@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class CommonActions {
     public static WebDriver driver;
 	public static void launch() {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Dell\\eclipse-workspace-new\\Test\\driver\\chromedriver84.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Dell\\eclipse-workspace-new\\CucumberTask\\driver\\chromedriver84.exe");
         driver=new ChromeDriver();
         driver.get("http://demo.guru99.com/telecom/index.html");
         driver.manage().window().maximize();

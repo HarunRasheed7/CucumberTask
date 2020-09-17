@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
                   glue="com.stepdefinition",
                   monochrome=true,
                   dryRun=false,
-                  plugin="html:target/reports.html")
+                 plugin= {"html:target/cucumber-reports","json:target/json-reportss.json"})
 public class TestRunner {
 
 }
